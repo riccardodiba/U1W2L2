@@ -3,7 +3,7 @@
  */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numbers=[25, 25]
+const numbers=[10, 25]
 if (numbers[0] > numbers[1]){
   console.log(numbers[0] + " è il numero maggiore")
 }
@@ -72,7 +72,7 @@ console.log("la loro addizione/sottrazione sia uguale a 8")
 /* SCRIVI QUI LA TUA RISPOSTA */
 const totalShoppingCart = 40
 const shippingCost = 10
-if (totalShoppingCart >=50){
+if (totalShoppingCart > 50){
   console.log("spedizione gratuita")
 }
 else (totalShoppingCart + shippingCost); {
@@ -82,12 +82,14 @@ else (totalShoppingCart + shippingCost); {
 
 
 
+
 /* ESERCIZIO 6y
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 
 /* ESERCIZIO 7
@@ -187,7 +189,7 @@ const me = {
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-city:"toronto"
+me.city="toronto"
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
@@ -214,6 +216,9 @@ skills.pop();
 }
 
 console.log(me);
+/*me.skills.pop()  soluzione 1
+me.skills.splice(2, 1)  soluzione 2 
+
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
@@ -221,6 +226,16 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let numeri = []
+numeri.push(1)
+numeri.push(2)
+numeri.push(3)
+numeri.push(4)
+numeri.push(5)
+numeri.push(6)
+numeri.push(7)
+numeri.push(8)
+numeri.push(9)
+numeri.push(10)
 
 
 /* ESERCIZIO 15
@@ -229,3 +244,4 @@ let numeri = []
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+numeri[9] = 100
